@@ -85,13 +85,13 @@ public class Mesa {
         System.out.print("Filósofos: ");
         for (int i = 0; i < 5; i++) {
             switch (filosofos[i]) {
-                case PENSANDO:
+                case 1:
                     texto = "PENSANDO";
                     break;
-                case FOME:
+                case 3:
                     texto = "FOME";
                     break;
-                case COMENDO:
+                case 2:
                     texto = "COMENDO";
                     break;
             }
